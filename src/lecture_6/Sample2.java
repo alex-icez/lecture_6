@@ -61,8 +61,8 @@ public class Sample2 {
 	
 	static Pair<String> sort(String a, String b) {
 		if (a.compareTo(b) > 0)
-			return new Pair<Integer>(a, b);
-		return new Pair<Integer>(b, a);
+			return new Pair<String>(a, b);
+		return new Pair<String>(b, a);
 	}
 	
 	
