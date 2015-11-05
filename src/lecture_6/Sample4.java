@@ -27,7 +27,7 @@ class LinkedList<T> implements List<T> {
 			head = new Item(value);
 			return;
 		}
-		
+		Item iter = head;
 		
 	}
 	
