@@ -2,10 +2,10 @@ package lecture_6;
 
 interface List<T> {
 	void add(T value);
-	void set(int index, T value);
-	void get(int index);
-	int size();
-	boolean isEmpty();
+	//void set(int index, T value);
+	//void get(int index);
+	//int size();
+	//boolean isEmpty();
 	void print();
 }
 
@@ -38,8 +38,9 @@ class LinkedList<T> implements List<T> {
 		Item iter = head;
 		while(iter != null) {
 			System.out.print(iter.value + " ");
-			
+			iter = iter.next;
 		}
+		System.out.println();
 	}
 }
 
