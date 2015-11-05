@@ -21,8 +21,7 @@ class Box {
 	}
 	
 	public String toString() {
-		
-		
+		return "Box " + h + "x" + w + "x" + d;
 	}
 	
 }
