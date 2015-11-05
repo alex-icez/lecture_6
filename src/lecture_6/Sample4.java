@@ -9,6 +9,14 @@ interface List<T> {
 	void print();
 }
 
+class LinkedList<T> implements List<T> {
+
+
+	
+	
+}
+
+
 public class Sample4 {
 
 	public static void main(String[] args) {
