@@ -14,6 +14,10 @@ class Box {
 	public boolean equals(Object obj) {
 		if (this == obj)
 			return true;
+		if (!(obj instanceof Box))
+			return false;
+		Box box = (Box)obj;
+		
 	}
 }
 
