@@ -1,5 +1,6 @@
 package lecture_6;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Sample1 {
@@ -10,11 +11,8 @@ public class Sample1 {
 		Scanner s = new Scanner(System.in);
 		while(s.hasNextInt()) {
 			temp = s.nextInt();
-			if (count == arr.length) {
-				int newArr[] = new int[count * 2];
-				System.arraycopy(arr, 0, newArr, 0, count);
-				arr = newArr;
-			}
+			if (count == arr.length) 
+				arr = Arrays.copyOf(arr, count * 2);
 			arr[count] = temp;
 			count++;
 		}
