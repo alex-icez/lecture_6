@@ -55,14 +55,14 @@ public class Sample2 {
 	
 	static Pair<Integer> sort(Integer a, Integer b) {
 		if (a > b)
-			return new Pair<Integer>(a, b);
-		return new Pair<Integer>(b, a);
+			return new Pair<>(a, b);
+		return new Pair<>(b, a);
 	}
 	
 	static Pair<String> sort(String a, String b) {
 		if (a.compareTo(b) > 0)
-			return new Pair<String>(a, b);
-		return new Pair<String>(b, a);
+			return new Pair<>(a, b);
+		return new Pair<>(b, a);
 	}
 	
 	
@@ -70,8 +70,8 @@ public class Sample2 {
 		Pair<Integer> r = sort(100, 12);
 		
 		
-		Pack<Integer> pi = new Pack<Integer>(123);
-		Pack<String> ps = new Pack<String>("232");
+		Pack<Integer> pi = new Pack<>(123);
+		Pack<String> ps = new Pack<>("232");
 		
 		OPack opi = new OPack(1123);
 		OPack ops = new OPack("dsfs");
