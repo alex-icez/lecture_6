@@ -42,6 +42,14 @@ class Pair<T> {
 	}
 }
 
+class PairInteger {
+	Integer first;
+	Integer second;
+	public PairInteger(Integer first, Integer second) {
+		this.first = first;
+		this.second = second;
+	}
+}
 
 public class Sample2 {
 	
