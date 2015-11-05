@@ -17,6 +17,13 @@ class Pack<T> {
 	}
 }
 
+class OPack {
+	Object value;
+	
+	
+}
+
+
 public class Sample2 {
 	public static void main(String args[]) {
 		Pack<Integer> pi = new Pack<Integer>(123);
