@@ -19,8 +19,18 @@ class Pack<T> {
 
 class OPack {
 	Object value;
-	
-	
+
+	public OPack(Object value) {
+		this.value = value;
+	}
+
+	public Object getValue() {
+		return value;
+	}
+
+	public void setValue(Object value) {
+		this.value = value;
+	}
 }
 
 
@@ -28,6 +38,8 @@ public class Sample2 {
 	public static void main(String args[]) {
 		Pack<Integer> pi = new Pack<Integer>(123);
 		Pack<String> ps = new Pack<String>("232");
+		
+		OPack opi = new OPack(1123);
 		
 	}
 }
