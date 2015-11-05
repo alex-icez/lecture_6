@@ -18,7 +18,7 @@ public class Test {
 		Box b2 = new Box(1,2,3);
 		String str1 = new String("123");
 		String str2 = new String("123");
-		System.out.println(str1.equals(str2));
+		System.out.println(b1.equals(b2));
 		
 		
 	}
