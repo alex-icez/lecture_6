@@ -23,6 +23,14 @@ class Box implements Comparable<Box> {
 	public String toString() {
 		return "Box " + h + "x" + w + "x" + d;
 	}
+
+	public int compareTo(Box o) {
+		if (w != o.w) 
+			return w - o.w;
+		if (h != o.h)
+			return h - o.h;
+		return d - o.d;
+	}
 }
 
 public class Test {
