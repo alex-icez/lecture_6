@@ -35,6 +35,12 @@ class OPack {
 
 
 public class Sample2 {
+	
+	static Pair<Integer> sort(Integer a, Integer b) {
+	
+	
+	}
+	
 	public static void main(String args[]) {
 		Pack<Integer> pi = new Pack<Integer>(123);
 		Pack<String> ps = new Pack<String>("232");
