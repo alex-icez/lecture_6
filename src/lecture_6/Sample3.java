@@ -1,9 +1,14 @@
 package lecture_6;
 
+interface Output {
+	void print();
+}
+
+
 public class Sample3 {
 
 	static <T extends Number> T print(T t) {
-		System.out.println(t.);
+		System.out.println(t.doubleValue());
 		return t;
 	}
 	
