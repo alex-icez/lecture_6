@@ -18,7 +18,8 @@ public class Sample3 {
 
 	static <T extends Number & Comparable<T>> T print(T t) {
 		System.out.println(t.doubleValue());
-		n t;
+		A.B b;
+		return t;
 	}
 	
 	public static void main(String[] args) {
