@@ -11,6 +11,8 @@ public class Sample3 {
 		String s = print("fdesfrde");
 		Double d = print(2134213.0);
 		Box i = print(new Box(1,2,3));
+		
+		System.out.println(s);
 	}
 
 }
