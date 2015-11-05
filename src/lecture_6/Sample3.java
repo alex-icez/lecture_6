@@ -3,7 +3,7 @@ package lecture_6;
 public class Sample3 {
 
 	static <T extends Number> T print(T t) {
-		System.out.println(t);
+		System.out.println(t.);
 		return t;
 	}
 	
