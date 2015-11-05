@@ -15,6 +15,10 @@ class A {
 		}
 		
 	}
+	
+	B createB() {
+		return new B();
+	}
 }
 
 
@@ -23,6 +27,8 @@ public class Sample3 {
 
 	static <T extends Number & Comparable<T>> T print(T t) {
 		System.out.println(t.doubleValue());
+		A a = new A();
+		
 		A.B b = new A.B();
 		return t;
 	}
