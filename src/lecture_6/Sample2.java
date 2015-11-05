@@ -39,7 +39,12 @@ public class Sample2 {
 		Pack<Integer> pi = new Pack<Integer>(123);
 		Pack<String> ps = new Pack<String>("232");
 		
+		pi = ps;
+		
 		OPack opi = new OPack(1123);
+		OPack ops = new OPack("dsfs");
+		
+		opi = ops;
 		
 	}
 }
