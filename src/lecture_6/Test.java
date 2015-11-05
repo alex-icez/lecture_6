@@ -10,6 +10,11 @@ class Box {
 		this.h = h;
 		this.d = d;
 	}
+	
+	public boolean equals(Object obj) {
+		
+	}
+	
 }
 
 public class Test {
