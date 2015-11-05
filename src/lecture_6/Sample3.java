@@ -2,9 +2,9 @@ package lecture_6;
 
 public class Sample3 {
 
-	static <T> T print() {
-		System.out.println();
-		return (T)new Integer(1234);
+	static <T> T print(T t) {
+		System.out.println(t);
+		return t;
 	}
 	
 	public static void main(String[] args) {
