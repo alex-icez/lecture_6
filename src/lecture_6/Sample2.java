@@ -19,7 +19,8 @@ class Pack<T> {
 
 public class Sample2 {
 	public static void main(String args[]) {
-		
+		Pack<Integer> pi = new Pack<Integer>(123);
+		Pack<String> ps = new Pack<String>("232");
 		
 	}
 }
