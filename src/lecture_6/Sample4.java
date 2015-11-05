@@ -48,8 +48,11 @@ class LinkedList<T> implements List<T> {
 public class Sample4 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		LinkedList<Integer> l = new LinkedList<>();
+		l.add(1);
+		l.add(12);
+		l.add(15);
+		l.print();
 	}
 
 }
