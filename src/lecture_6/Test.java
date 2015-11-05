@@ -17,7 +17,7 @@ class Box {
 		if (!(obj instanceof Box))
 			return false;
 		Box box = (Box)obj;
-		
+		return w == box.w && h == box.h && d == box.d; 
 	}
 }
 
