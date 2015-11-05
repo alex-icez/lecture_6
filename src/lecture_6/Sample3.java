@@ -4,7 +4,7 @@ public class Sample3 {
 
 	static <T> T print() {
 		System.out.println();
-		return (T)1234;
+		return (T)new Integer(1234);
 	}
 	
 	public static void main(String[] args) {
