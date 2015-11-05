@@ -2,7 +2,7 @@ package lecture_6;
 
 public class Sample3 {
 
-	static <T> void print(T t) {
+	<T> static void print(T t) {
 		System.out.println(t);
 	}
 	
