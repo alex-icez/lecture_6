@@ -22,7 +22,11 @@ class LinkedList<T> implements List<T> {
 	private int size = 0;
 	
 	public void add(T value) {
-		
+		size++;
+		if (head == null) {
+			head = new Item(value);
+			return;
+		}
 		
 		
 	}
