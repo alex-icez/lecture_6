@@ -1,10 +1,14 @@
 package lecture_6;
 
+class Box {
+	int w;
+	int h;
+	int d;
+}
+
 public class Test {
-	publci static void main(String args[]) {
+	public static void main(String args[]) {
 		
 		
 	}
-	
-	
 }
