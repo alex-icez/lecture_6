@@ -2,13 +2,14 @@ package lecture_6;
 
 public class Sample3 {
 
-	<T> void print(T t) {
+	static <T> void print(T t) {
 		System.out.println(t);
 	}
 	
 	public static void main(String[] args) {
-		
-
+		print("fdesfrde");
+		print(2134213.0);
+		print(new Box(1,2,3));
 	}
 
 }
