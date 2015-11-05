@@ -25,11 +25,7 @@ class Box implements Comparable<Box> {
 	}
 
 	public int compareTo(Box o) {
-		if (w != o.w) 
-			return w - o.w;
-		if (h != o.h)
-			return h - o.h;
-		return d - o.d;
+		return w * h * d - o.w * o.h * o.d;
 	}
 }
 
