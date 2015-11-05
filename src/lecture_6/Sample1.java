@@ -19,6 +19,9 @@ public class Sample1 {
 			arr[count] = temp;
 			count++;
 		}
+		for(int i = 0; i < count; i++)
+			System.out.print(arr[i] + " ");
+		System.out.println();	
 	}
 
 }
