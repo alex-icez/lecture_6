@@ -30,6 +30,14 @@ class Box implements Comparable<Box> {
 }
 
 public class Test {
+	
+	
+	static <T extends Comparable<T>> void sort(T arr[]) {
+		T temp;
+		
+		
+	}
+	
 	public static void main(String args[]) {
 		Box b1 = new Box(1,2,3);
 		Box b2 = new Box(1,2,3);
