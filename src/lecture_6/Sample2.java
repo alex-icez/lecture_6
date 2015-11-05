@@ -41,7 +41,7 @@ public class Sample2 {
 		
 		OPack opi = new OPack(1123);
 		OPack ops = new OPack("dsfs");
-		Integer i = (Integer)opi.getValue();
+		String i = (String)opi.getValue();
 		opi = ops;
 		
 	}
