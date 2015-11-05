@@ -11,8 +11,11 @@ interface List<T> {
 
 class LinkedList<T> implements List<T> {
 	private class Item {
-		
-		
+		T value;
+		Item next;
+		public Item(T value) {
+			this.value = value;
+		}
 	}
 
 	
