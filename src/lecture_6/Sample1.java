@@ -19,7 +19,12 @@ public class Sample1 {
 			arr[count] = temp;
 			count++;
 		}
+		int newArr[] = new int[count];
 		for(int i = 0; i < count; i++)
+			newArr[i] = arr[i];
+		arr = newArr;
+		
+		for(int i = 0; i < arr.length; i++)
 			System.out.print(arr[i] + " ");
 		System.out.println();	
 	}
