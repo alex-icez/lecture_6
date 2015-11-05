@@ -1,6 +1,6 @@
 package lecture_6;
 
-class Box {
+class Box implements Comparable<Box> {
 	int w;
 	int h;
 	int d;
