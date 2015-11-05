@@ -7,7 +7,7 @@ interface Output {
 
 public class Sample3 {
 
-	static <T extends Number> T print(T t) {
+	static <T extends Number & Output> T print(T t) {
 		System.out.println(t.doubleValue());
 		return t;
 	}
