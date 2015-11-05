@@ -32,10 +32,9 @@ class Box implements Comparable<Box> {
 }
 
 public class Test {
-	
-	
+
 	static <T extends Comparable<T>> void sort(T arr[]) {
-		T temp;
+		T temp = new T();
 		for(int i = 0; i < arr.length; i++)
 			for(int j = 0; j < arr.length - 1 - i; j++)
 				if (arr[j].compareTo(arr[j + 1]) > 0) {
