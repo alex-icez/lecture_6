@@ -59,6 +59,13 @@ public class Sample2 {
 		return new Pair<Integer>(b, a);
 	}
 	
+	static Pair<String> sort(String a, String b) {
+		if (a.compareTo(b) > 0)
+			return new Pair<Integer>(a, b);
+		return new Pair<Integer>(b, a);
+	}
+	
+	
 	public static void main(String args[]) {
 		Pair<Integer> r = sort(100, 12);
 		
