@@ -10,9 +10,14 @@ public class Sample1 {
 		Scanner s = new Scanner(System.in);
 		while(s.hasNextInt()) {
 			temp = s.nextInt();
-		
-			
-			
+			if (count == arr.length) {
+				int newArr[] = new int[count * 2];
+				for(int i = 0; i < count; i++)
+					newArr[i] = arr[i];
+				arr = newArr;
+			}
+			arr[count] = temp;
+			count++;
 		}
 	}
 
