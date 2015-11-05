@@ -28,6 +28,9 @@ class LinkedList<T> implements List<T> {
 			return;
 		}
 		Item iter = head;
+		while(iter.next != null) 
+			iter = iter.next;
+		
 		
 	}
 	
