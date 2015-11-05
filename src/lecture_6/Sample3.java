@@ -4,11 +4,11 @@ public class Sample3 {
 
 	static <T> T print() {
 		System.out.println();
-		return (T)"dsqedq";
+		return (T)1234;
 	}
 	
 	public static void main(String[] args) {
-		String s = print();
+		Integer s = print();
 
 		
 		//	Double d = print(2134213.0);
