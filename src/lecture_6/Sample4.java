@@ -34,7 +34,12 @@ class LinkedList<T> implements List<T> {
 		iter.next = new Item(value);
 	}
 	
-	
+	public void print() {
+		
+		
+		
+		
+	}
 }
 
 
