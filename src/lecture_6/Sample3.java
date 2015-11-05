@@ -8,10 +8,10 @@ interface Output {
 class A {
 	int a;
 	
-	class B {
+	static class B {
 		int b;
 		public B() {
-			b = a;
+			b;
 		}
 		
 	}
