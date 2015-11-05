@@ -8,9 +8,9 @@ public class Sample3 {
 	}
 	
 	public static void main(String[] args) {
-		print("fdesfrde");
-		print(2134213.0);
-		print(new Box(1,2,3));
+		String s = print("fdesfrde");
+		Double d = print(2134213.0);
+		Integer i = print(new Box(1,2,3));
 	}
 
 }
