@@ -6,8 +6,13 @@ interface Output {
 
 
 class A {
+	int a;
+	
 	class B {
-		
+		int b;
+		public B() {
+			b = a;
+		}
 		
 	}
 }
@@ -18,7 +23,7 @@ public class Sample3 {
 
 	static <T extends Number & Comparable<T>> T print(T t) {
 		System.out.println(t.doubleValue());
-		A.B b;
+		A.B b = new A.B();
 		return t;
 	}
 	
