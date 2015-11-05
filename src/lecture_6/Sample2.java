@@ -40,21 +40,20 @@ class Pair<T> {
 		this.first = first;
 		this.second = second;
 	}
-	
 }
 
 
 public class Sample2 {
 	
 	static Pair<Integer> sort(Integer a, Integer b) {
-	
-	
+		if (a > b)
+			return new Pair<Integer>(a, b);
+		return new Pair<Integer>(b, a);
 	}
 	
 	public static void main(String args[]) {
 		Pair<Integer> r = sort(100, 12);
-		r.first 	//	12 
-		r.second 	//	100
+		
 		
 		Pack<Integer> pi = new Pack<Integer>(123);
 		Pack<String> ps = new Pack<String>("232");
