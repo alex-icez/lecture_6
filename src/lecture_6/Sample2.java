@@ -42,6 +42,10 @@ public class Sample2 {
 	}
 	
 	public static void main(String args[]) {
+		Pair<Integer> r = sort(100, 12);
+		
+		
+		
 		Pack<Integer> pi = new Pack<Integer>(123);
 		Pack<String> ps = new Pack<String>("232");
 		
