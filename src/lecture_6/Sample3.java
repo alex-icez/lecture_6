@@ -10,7 +10,7 @@ public class Sample3 {
 	public static void main(String[] args) {
 		String s = print("fdesfrde");
 		Double d = print(2134213.0);
-		Integer i = print(new Box(1,2,3));
+		Box b = print(new Box(1,2,3));
 	}
 
 }
