@@ -12,8 +12,7 @@ public class Sample1 {
 			temp = s.nextInt();
 			if (count == arr.length) {
 				int newArr[] = new int[count * 2];
-				for(int i = 0; i < count; i++)
-					newArr[i] = arr[i];
+				System.arraycopy(arr, 0, newArr, 0, count);
 				arr = newArr;
 			}
 			arr[count] = temp;
