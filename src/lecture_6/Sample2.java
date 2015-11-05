@@ -33,6 +33,16 @@ class OPack {
 	}
 }
 
+class Pair<T> {
+	T first;
+	T second;
+	public Pair(T first, T second) {
+		this.first = first;
+		this.second = second;
+	}
+	
+}
+
 
 public class Sample2 {
 	
@@ -43,8 +53,8 @@ public class Sample2 {
 	
 	public static void main(String args[]) {
 		Pair<Integer> r = sort(100, 12);
-		
-		
+		r.first 	//	12 
+		r.second 	//	100
 		
 		Pack<Integer> pi = new Pack<Integer>(123);
 		Pack<String> ps = new Pack<String>("232");
