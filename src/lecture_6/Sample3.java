@@ -2,8 +2,9 @@ package lecture_6;
 
 public class Sample3 {
 
-	<T> static void print(T t) {
+	static <T> T print(T t) {
 		System.out.println(t);
+		return t;
 	}
 	
 	public static void main(String[] args) {
