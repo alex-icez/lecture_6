@@ -35,10 +35,11 @@ class LinkedList<T> implements List<T> {
 	}
 	
 	public void print() {
-		
-		
-		
-		
+		Item iter = head;
+		while(iter != null) {
+			System.out.print(iter.value + " ");
+			
+		}
 	}
 }
 
