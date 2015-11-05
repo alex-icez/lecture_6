@@ -1,5 +1,7 @@
 package lecture_6;
 
+import java.util.Arrays;
+
 class Box implements Comparable<Box> {
 	int w;
 	int h;
@@ -45,8 +47,8 @@ public class Test {
 	
 	public static void main(String args[]) {
 		String arr[] = {"a", "ab", "bb","ba", "bb", "aa", "ba"};
-	
-		
+		sort(arr);
+		System.out.println(Arrays.toString(arr));
 		
 	}
 }
