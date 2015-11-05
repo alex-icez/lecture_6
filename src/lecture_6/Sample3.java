@@ -2,13 +2,13 @@ package lecture_6;
 
 public class Sample3 {
 
-	static <T> T print(T t) {
-		System.out.println(t);
-		return t;
+	static <T> T print() {
+		System.out.println();
+		return (T)"dsqedq";
 	}
 	
 	public static void main(String[] args) {
-		Object s = print("fdesfrde");
+		String s = print("fdesfrde");
 		Double d = print(2134213.0);
 		Box i = print(new Box(1,2,3));
 		
