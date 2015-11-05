@@ -31,7 +31,7 @@ class LinkedList<T> implements List<T> {
 		while(iter.next != null) 
 			iter = iter.next;
 		
-		
+		iter.next = new Item(value);
 	}
 	
 	
