@@ -5,12 +5,20 @@ interface Output {
 }
 
 
+class A {
+	class B {
+		
+		
+	}
+}
+
+
+
 public class Sample3 {
 
 	static <T extends Number & Comparable<T>> T print(T t) {
 		System.out.println(t.doubleValue());
-		
-		return t;
+		n t;
 	}
 	
 	public static void main(String[] args) {
